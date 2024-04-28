@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Password_Manager</string>
+    <string name="mainmsg">LOGIN HERE</string>
+    <string name="userName">Enter Your Full Name</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Register</string>
+    <string name="userPass">Enter Your Password</string>
+    <string name="msgWlcm">Welcome</string>
+    <string name="msgNote">Kindle fill out the following details to proceed with the other steps.</string>
+    <string name="enterName">Enter Name</string>
+    <string name="enterEmail">Enter Email</string>
+    <string name="enterPhone">Enter Phone Number</string>
+    <string name="enterPin">Enter Pincode</string>
+    <string name="enterCity">Enter City</string>
+    <string name="enterDOB">Enter Date Of Birth</string>
+    <string name="pickGender">Choose Pronouns</string>
+    <string name="gMale">he/him</string>
+    <string name="gFemale">she/her</string>
+    <string name="gOther">other (specify)</string>
+    <string name="enterOther">Specify Your Desired Pronouns:</string>
+    <string name="checkTerms"><![CDATA[I have read the Terms & Conditions of this application and I am fully willing to work by the rules. Furthermore, I provide my consent to use my provided data under the terms of privacy, as per the Governmental Norms.]]></string>
+    <string name="hintDOB">DD/MM/YYYY</string>
+    <string name="userConfirmPass">Confirm Password\n</string>
+</resources>
