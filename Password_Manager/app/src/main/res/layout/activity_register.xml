@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".register">
+        >
+
+
+        <ImageView
+            android:id="@+id/imgLogin"
+            android:layout_width="360dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="@dimen/mainMargin"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainht"
+            android:layout_marginTop="@dimen/margins"
+            android:hint="@string/userName"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/userPass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainht"
+            android:hint="@string/userPass"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/userConfirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainht"
+        android:hint="@string/userConfirmPass"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@color/black" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="30dp">
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="@dimen/margins"
+        android:gravity="center"
+        android:text="@string/btnRegister"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="30dp"
+        android:text="Login"
+        android:textSize="20sp"/>
+</LinearLayout>
+
+</LinearLayout>

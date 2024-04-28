@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainht">70dp</dimen>
+    <dimen name="txtsize">50sp</dimen>
+    <dimen name="margins">30dp</dimen>
+    <dimen name="mainMargin">60dp</dimen>
+    <dimen name="txtsize2">30sp</dimen>
+    <dimen name="noteSize">18sp</dimen>
+    <dimen name="imgMargin">5dp</dimen>
+    <dimen name="imgMarginMinus">-20dp</dimen>
+</resources>
