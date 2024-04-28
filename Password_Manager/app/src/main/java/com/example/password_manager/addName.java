@@ -39,6 +39,8 @@ public class addName extends AppCompatActivity {
         btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(addName.this, PasswordManager.class);
+                startActivity(intent);
                 finish();
             }
         });

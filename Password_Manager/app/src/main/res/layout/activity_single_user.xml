@@ -7,10 +7,10 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:cardBackgroundColor="#A3ADE1"
+        app:cardBackgroundColor="#B6A0DE"
         app:cardElevation="10dp"
-        android:layout_margin="5dp"
-        app:cardCornerRadius="25dp" >
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp" >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,55 +21,59 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
                 android:src="@drawable/ic_delete"
                 android:id="@+id/ivDelete"
                 />
+
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="135dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
                 android:gravity="center"
-                android:padding="20dp"
-                >
+                android:orientation="vertical"
+                android:padding="20dp">
+
                 <TextView
+                    android:id="@+id/tvName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Name"
-                    android:id="@+id/tvName"
                     android:textSize="17sp"
                     android:textStyle="bold"
 
                     />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="password"
                     android:id="@+id/tvPassword"
-                    />
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center"
-                android:padding="20dp"
-                >
-                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="URL"
-                    android:id="@+id/tvURL"
-                    />
+                    android:text="password" />
+
+
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/tvURL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="URL" />
+            </LinearLayout>
+
             <ImageView
                 android:id="@+id/ivEdit"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_gravity="center"
 
+                android:layout_marginTop="20dp"
+android:layout_marginLeft="30dp"
                 android:src="@drawable/ic_edit" />
         </LinearLayout>
 
